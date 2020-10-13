@@ -258,6 +258,7 @@ PC style
   .c-headerLogo {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 120px;
     height: 70px;
     border-radius: 10px;
@@ -269,11 +270,8 @@ PC style
   .c-headerLogo__text {
     color: #fff;
     font-size: 30px;
+    text-align: center;
   }
-
-.c-headerLogo__big {
-  font-size: 60px;
-}
 
   .c-navList {
     display: flex;
