@@ -123,6 +123,7 @@ common-css
 /*
 .l-wrapper--blog
 ------------------------------------------------*/
+
 .p-index-blogContainer__blogImage {
   object-fit: cover;
 }
@@ -152,12 +153,46 @@ common-css
 }
 
 /*
-.l-wrapper--contact
+.l-wrapper--faq
 ------------------------------------------------*/
-.l-wrapper--contact {
+.l-wrapper--faq {
   background-color: #f5f5f5;
 }
 
+.p-index-faqList__item:not(:first-of-type) {
+  margin-top: 2px;
+}
+
+.p-index-faqQuestion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(222, 226, 229);
+}
+
+.p-index-faqQuestion__text {
+  margin-right: 80px;
+}
+
+.p-index-faqList__openBtn {
+  font-size: 20px;
+}
+
+.answer {
+  display: none;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(222, 226, 229, 0.5);;
+}
+
+.open {
+  display: block;
+}
+
+/*
+.l-wrapper--contact
+------------------------------------------------*/
 .embededGoogleMap {
   width: 100%;
   height: 450px;
@@ -179,6 +214,8 @@ common-css
 }
 
 .p-index-contactList__item {
+  display: flex;
+  align-items: center;
   width: 400px;
   padding: 20px 20px 20px 10px;
   color: #696969;
@@ -271,6 +308,23 @@ SP style
 
   .c-moreButton {
     width: 100%;
+  }
+
+  /*
+  .l-wrapper--faq
+  ------------------------------------------------*/
+  .l-wrapper--faq {
+    padding: 80px 20px;
+  }
+
+  .p-index-faqQuestion {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .answer {
+    font-size: 14px;
+    line-height: 20px;
   }
 
   /*
@@ -467,6 +521,18 @@ PC style
   .c-moreButton:hover {
     background-color: rgb(178, 255,216);
     transition: all 0.3s;
+  }
+
+  /*
+  .l-wrapper--faq
+  ------------------------------------------------*/
+  .l-wrapper--faq {
+    padding: 80px 50px;
+  }
+
+  .p-index-faqList {
+    width: 60%;
+    margin: 0 auto;
   }
 
   /*
