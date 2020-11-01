@@ -39,6 +39,31 @@
   line-height: 30px;
 }
 
+.c-portfolioModal__message {
+  text-align: start;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.c-portfolioModal__message--lang {
+  display: flex;
+  justify-content: center;
+}
+
+.c-portfolioModal__image {
+  display: flex;
+  justify-content: center;
+}
+
+.c-portfolioModal__image--item {
+  width: 200px;
+  height: 300px;
+}
+
+.c-portfolioModal__image--item:first-of-type {
+  margin-right: 10px;
+}
+
 @media (max-width: 767.98px) {
   .c-service__cardBlock:not(:first-of-type) {
     margin-top: 30px;

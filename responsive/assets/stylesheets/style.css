@@ -163,6 +163,10 @@ common-css
   margin-top: 2px;
 }
 
+.p-index-faqList__item:hover {
+  cursor: pointer;
+}
+
 .p-index-faqQuestion {
   display: flex;
   justify-content: center;
@@ -220,6 +224,19 @@ common-css
   padding: 20px 20px 20px 10px;
   color: #696969;
   background-color: rgba(222, 226, 229, 0.5);
+}
+
+/*
+.l-footer
+------------------------------------------------*/
+.l-footer {
+  padding: 5px 0;
+  color: #fff;
+  background-color: #20b2aa;
+}
+
+.p-copyRight {
+  text-align: center;
 }
 
 /*-----------------------------------------------

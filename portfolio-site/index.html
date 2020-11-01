@@ -132,7 +132,7 @@
             <img src="./assets/img/responsive-site.png" alt="ポートフォリオサイト" class="bd-placeholder-img card-img-top c-portfolio__image">
             <div class="card-body">
               <h5 class="card-title">Responsive Site</h5>
-              <p class="card-text c-portfolio__text">HTML/CSS<br>CSS設計:FLOCSS</p>
+              <p class="card-text c-portfolio__text">HTML/CSS/jQuery<br>CSS設計:FLOCSS</p>
               <!-- Modal button -->
               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal__responsiveSite">More</button>
               <!-- Modal item -->
@@ -145,8 +145,19 @@
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
-                    <div class="modal-body">
-                      ...
+                    <div class="modal-body c-portfolioModal">
+                      <div class="c-portfolioModal__image">
+                        <img src="./assets/img/responsive-site.png" alt="レスポンシブサイト画像1" class="c-portfolioModal__image--item">
+                        <img src="./assets/img/responsive-site.png" alt="レスポンシブサイト画像2" class="c-portfolioModal__image--item">
+                      </div>
+                      <div class=" c-portfolioModal__message">
+                        コーポレートサイトを想定して作成してみました！<br>
+                        この制作を通して、Flexboxが理解できたことが印象に残っております。<br>
+                        レスポンシブ対応については、Bootstrapを使用した方が早いですが、手作業で実装しております。<br>
+                        CSSの設計方法をFLOCSSにして実装しております。<br>
+                        FAQブロックのアコーディオンをjQueryで実装しております。<br>
+                        <span class="c-portfolioModal__message--lang">使用言語：HTML/CSS/jQuery</span>
+                      </div>
                     </div>
                     <div class="modal-footer d-flex justify-content-center">
                       <a href="https://ke-suke36.github.io/portfolio/responsive" target="_blank" class="btn btn-primary">Go</a>
@@ -205,8 +216,16 @@
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
-                    <div class="modal-body">
-                      ...
+                    <div class="modal-body c-portfolioModal">
+                      <div class="c-portfolioModal__image">
+                        <img src="./assets/img/portfolio.png" alt="レスポンシブサイト画像1" class="c-portfolioModal__image--item">
+                        <img src="./assets/img/portfolio.png" alt="レスポンシブサイト画像2" class="c-portfolioModal__image--item">
+                      </div>
+                      <div class=" c-portfolioModal__message">
+                        ご覧頂いているページになります。<br>
+                        Bootstrapを使用して作成しております。<br>
+                        <span class="c-portfolioModal__message--lang">使用言語：HTML/CSS/Bootstrap</span>
+                      </div>
                     </div>
                     <div class="modal-footer d-flex justify-content-center">
                       <a href="https://ke-suke36.github.io/portfolio/portfolio-site/" target="_blank" class="btn btn-primary">Go</a>
